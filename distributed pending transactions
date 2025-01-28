@@ -1,0 +1,7 @@
+COL local_tran_id FORMAT a13
+COL in_out FORMAT a6
+COL database FORMAT a25
+COL dbuser_owner FORMAT a15
+COL interface FORMAT a3
+SELECT local_tran_id, in_out, database, dbuser_owner, interface
+FROM dba_2pc_neighbors
